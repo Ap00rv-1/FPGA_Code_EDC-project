@@ -1,0 +1,8 @@
+The input to combinational logic circuit is a 4-bit binary number. The circuit has three outputs (Y1, Y2,Y3).
+Design the combinational circuit and implement it in FPGA kit using Verilog where the output conditions are:
+
+
+Y1=1 if the input binary number is 0,1,2 or 3. In this case, Y2 and Y3 are zero.
+Y2=1 if the input binary number is 4,5 or 6.In this case, Y1 and Y3 are zero.
+Y3=1 if the input binary number is 7,8 or 9.In this case, Y1 and Y2 are zero.
+Y1=Y2=Y3=0 in all other cases
